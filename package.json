@@ -1,0 +1,19 @@
+{
+  "name": "cloc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --no-warnings `which autorest`",
+    "count": "node --no-warnings `which autorest` index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.1.6",
+    "n-readlines": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  }
+}
