@@ -1,5 +1,7 @@
 # cloc
 
+> Dependencies => Node and npm
+
 > Install dependecies by running
 
 `npm install`
